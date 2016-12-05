@@ -1,0 +1,35 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url("http://katherinerdollar.com/wp-content/uploads/2015/07/creative-mind-brain-wallpaper-1170x658.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.bg-white{
+  background: whitesmoke;
+}
+
+.navbg{
+  background: whitesmoke;
+  /*padding:1em;*/
+  box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+  z-index: 10000;
+  position: fixed;
+  margin:auto;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.sup{
+  vertical-align: super;
+  font-size: x-small;
+}
+
+section.container{
+  padding: 3em 1.5em 1.5em 1.5em;
+}
