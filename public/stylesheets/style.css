@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i');
+
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px Rubik, "Lucida Grande", Helvetica, Arial, sans-serif;
   background: url("http://katherinerdollar.com/wp-content/uploads/2015/07/creative-mind-brain-wallpaper-1170x658.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -31,6 +33,52 @@ a {
 }
 
 section.container{
-  padding: 3em 1.5em 1.5em 1.5em;
+  padding: 3em;
 }
 
+.bold { font-weight: 700 }
+
+.italic { font-style: italic }
+
+.pd-lt-1 { padding-left: 1em }
+
+.mg-lt-1 { margin-left: 1em }
+
+.mg-tp-1 { margin-top: 1em }
+
+.mg-bm-half { margin-bottom: .5em }
+
+.flex { display: flex }
+
+.flex-between {
+  justify-content: space-between;
+  width: calc(50% - 3em);
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  margin: .5em 0 1em 0;
+}
+
+.floater {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  padding: 0 1em 0 0;
+}
+
+.quoted {
+  color: #666;
+  padding-left: 1em;
+}
+
+.quoted:before {
+  content: '" ';
+}
+
+.quoted:after {
+  content: ' "';
+}
