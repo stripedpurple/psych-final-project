@@ -82,3 +82,7 @@ hr {
 .quoted:after {
   content: ' "';
 }
+
+.navbar-toggle .icon-bar {
+  background: #666;
+}
