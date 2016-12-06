@@ -33,7 +33,7 @@ a {
 }
 
 section.container{
-  padding: 3em;
+  padding: 0 3em 3em 3em;
 }
 
 .bold { font-weight: 700 }
@@ -85,4 +85,13 @@ hr {
 
 .navbar-toggle .icon-bar {
   background: #666;
+}
+
+.copy{
+  margin:1em;
+  color:  #666;
+}
+
+section > .row{
+  margin-top: 3em;
 }
