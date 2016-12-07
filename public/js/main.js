@@ -1,7 +1,7 @@
 /**
  * Created by austin on 8/5/16.
  */
-(function () {
+(function ($) {
     // jQuery to collapse the navbar on scroll
     if ($('.navbar').offset().top > 150) {
         $('.navbar-fixed-top').addClass('top-nav-collapse');
@@ -54,4 +54,4 @@
         }
 
     })
-})();
+})(jQuery);

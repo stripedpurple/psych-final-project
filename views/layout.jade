@@ -13,27 +13,49 @@ html
         script(src="/js/main.js")
         link(rel='stylesheet', href='/stylesheets/style.css')
     body
-        .container.navbg
-            .container
-                // Brand and toggle get grouped for better mobile display
+        //nav.navbar.navbar-default
+        //.container.navbg
+        //    .container
+        //        // Brand and toggle get grouped for better mobile display
+        //        .navbar-header.page-scroll
+        //            button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+        //                span.sr-only Toggle navigation
+        //                span.icon-bar
+        //                span.icon-bar
+        //                span.icon-bar
+        //            a.navbar-brand(href='/') SCT
+        //        // Collect the nav links, forms, and other content for toggling
+        //        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+        //            ul.nav.navbar-nav
+        //                li.page-scroll: a(href='/#history') History
+        //                li.page-scroll: a(href='/#about') About
+        //                //li: a(href='/casestudies') Case Studies
+        //                li.page-scroll: a(href='/#refs') References
+        nav.navbar.navbar-defualt.bg-white.page-scroll
+            .container-fluid
                 .navbar-header
-                    button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
-                        span.sr-only Toggle navigation
+                    button.navbar-toggle(type='button', data-toggle='collapse', data-target='#myNavbar')
                         span.icon-bar
                         span.icon-bar
                         span.icon-bar
-                    a.navbar-brand(href='/') SCT
-                // Collect the nav links, forms, and other content for toggling
-                #bs-example-navbar-collapse-1.collapse.navbar-collapse
+                    a.navbar-brand(href='#') WebSiteName
+                #myNavbar.collapse.navbar-collapse
                     ul.nav.navbar-nav
-                        li.page-scroll: a(href='/#history') History
-                        li.page-scroll: a(href='/#about') About
-                        //li: a(href='/casestudies') Case Studies
-                        li.page-scroll: a(href='/#refs') References
+                        li.active
+                            a(href='#history') History
+                        li
+                            a(href='#about') About
+                        li
+                            a(href='#bandura') Bandura
+                        li
+                            a(href='#refs') References
+
 
 
         block content
-    footer.copy
-        ul.list-unstyled.list-inline
-            li #[a(href="https://github.com/viruscmd/psych-final-project") Check it out on GitHub]
-            li &copy; Austin Barrett, Trevor Jacoby, John Jennings-Nieves
+        .container
+            .row
+                .col-md-12.copy
+                    ul.list-unstyled.list-inline
+                        li #[a(href="https://github.com/viruscmd/psych-final-project") Check it out on GitHub]
+                        li &copy; Austin Barrett, Trevor Jacoby, John Jennings-Nieves

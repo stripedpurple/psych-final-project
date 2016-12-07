@@ -21,10 +21,10 @@ a {
   /*padding:1em;*/
   box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
   z-index: 10000;
-  position: fixed;
-  margin:auto;
-  max-width: 100%;
-  min-width: 100%;
+  /*position: fixed;*/
+  /*margin:auto;*/
+  /*max-width: 100%;*/
+  /*min-width: 100%;*/
 }
 
 .sup{
